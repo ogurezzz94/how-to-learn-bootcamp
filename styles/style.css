@@ -6,6 +6,12 @@ div * {
 div {
   border: 1px solid rgb(72, 255, 0);
 }
+/* задал константы только для цветов */
+:root {
+  --yablu: #2f80ed;
+  --yagrey: #f2f2f2;
+  --yablack: #1f1f1f;
+}
 
 /* для всех ссылок убрал подчеркивание */
 a {
@@ -39,6 +45,7 @@ a {
   /* background-color: rgb(255, 141, 47); */
   /* отступ слева для всех элементов родителя */
   padding-left: 64px;
+  background-color: var(--yagrey);
 }
 
 .header__prioritet-items {
@@ -75,7 +82,6 @@ a {
   width: 765px;
   font-size: 0;
 }
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
@@ -83,13 +89,8 @@ a {
   right: 0;
   height: 568px;
   width: 568px;
-  background-color: #2f80ed;
+  background-color: var(--yablu);
 }
-
-/* граница маркер */
-/* .content {
-  border-color: blue;
-} */
 /* задал флексбокс, направление и отцентровал внутренний элемент*/
 .description {
   padding-top: 100px ;
@@ -104,7 +105,6 @@ a {
 }
 
 .desctription__two-columns {
-  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -117,7 +117,7 @@ a {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color:#2f80ed
+  color: var(--yablu);
 }
 /* тут у меня явно проблемы с отступами */
 .description__main-text {
@@ -130,39 +130,40 @@ a {
   line-height: 34px;
   font-size: 24px;
 }
-
+/* задал отступы между элементами с помощью второго элемента */
 .description__main-text_paragraph-middle {
   margin: 30px auto;
 }
 
 .digits {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .digits__title {
   margin: auto auto 20px;
   text-align: center;
   width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 .digits__subtitle {
   margin: auto;
   text-align: center;
   width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .digits__table {
-  margin: auto;
-  /* padding-top: 60px; */
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 60px; */
   width: 1100px;
 }
-
+/* необходим рефакторинг для digits и kaufman!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .digits__table_cell {
   display: flex;
   flex-direction: column;
@@ -171,7 +172,20 @@ a {
   width: 250px;
 }
 
-/* digits__table_cell-heading */
+.digits__table_cell-heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  /*нашел неподходящее правило в инспекте, переписал стандартные правила для h3 */
+  margin-block-start: 0;
+}
+
+
 .digits__table_cell-text {
   margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
+
+
