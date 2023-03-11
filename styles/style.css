@@ -96,7 +96,7 @@ a {
   display: flex;
   justify-content: space-around;
   /* height: 400px; */
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .description__bold-span {
@@ -109,7 +109,6 @@ a {
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
-
 }
 
 .description__brief {
@@ -122,10 +121,6 @@ a {
 }
 /* тут у меня явно проблемы с отступами */
 .description__main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* display: grid; */
   min-width: 784px;
   width: 80%;
 }
@@ -136,6 +131,10 @@ a {
   font-size: 24px;
 }
 
+.description__main-text_paragraph-middle {
+  margin: 30px auto;
+}
+
 .digits {
   padding: 100px;
 }
@@ -143,24 +142,36 @@ a {
 .digits__title {
   margin: auto auto 20px;
   text-align: center;
+  width: 60%;
 }
 .digits__subtitle {
   margin: auto;
   text-align: center;
-
-
+  width: 60%;
 }
 
 .digits__table {
   margin: auto;
-  padding-top: 60px;
-  display: grid;
+  /* padding-top: 60px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 60px;
+  grid-gap: 60px; */
   width: 1100px;
 }
 
+.digits__table_cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 60px;
+  width: 250px;
+}
 
 /* digits__table_cell-heading */
-/* digits__table_cell-text */
+.digits__table_cell-text {
+  margin-top: 20px;
+}
