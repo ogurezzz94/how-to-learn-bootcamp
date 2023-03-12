@@ -13,10 +13,9 @@ div {
   --yablack: #1f1f1f;
 }
 
-/* для всех ссылок убрал подчеркивание и назначел цвет*/
+/* для всех ссылок убрал подчеркивание */
 a {
   text-decoration: none;
-  color:var(--yablu)
 }
 
 
@@ -29,6 +28,12 @@ a {
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.page__logo {
+  height: 32px;
+  width: 228px;
 }
 
 .table-section__title {
@@ -104,12 +109,9 @@ a {
 .header__absolute-items {
   position: absolute;
 }
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+
+.header__logo {
   top: 30px;
-  height: 32px;
-  width: 228px;
-  color: white;
 }
 
 .header__title {
@@ -121,6 +123,10 @@ a {
 
 .header__subtitle {
   bottom: 30px;
+}
+
+.header__subtitle-link {
+  color:var(--yablu);
 }
 
 .header__main-illustration {
@@ -145,7 +151,6 @@ a {
   padding-top: 100px ;
   display: flex;
   justify-content: space-around;
-  /* height: 400px; */
   min-height: 300px;
 }
 
@@ -168,7 +173,7 @@ a {
   font-weight: normal;
   color: var(--yablu);
 }
-/* тут у меня явно проблемы с отступами */
+
 .description__main-text {
   min-width: 784px;
   width: 80%;
@@ -225,6 +230,7 @@ a {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color:var(--yablu);
 }
 
 .kaufman {
@@ -237,7 +243,7 @@ a {
 .table-section__title_dark,
 .table-section__subtitle_dark {
   width: 60%;
-  color: var(--yagrey);
+  color: white;
 }
 
 .table-section__table_cell_dark {
@@ -257,3 +263,65 @@ a {
   right: -210px;
 }
 
+.footer {
+  max-height: 350px;
+  padding: 60px 0 40px;
+  background-color: var(--yablack);
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_copyright {
+  flex-basis: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column_copyright-author {
+  padding: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__column_info,
+.footer__column_social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer__column-header {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer__column-links {
+  padding: 20px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color:white;
+}
+
+.footer__icons {
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
