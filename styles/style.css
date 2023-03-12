@@ -140,7 +140,7 @@ a {
 }
 /* задал флексбокс, направление и отцентровал внутренний элемент*/
 .description {
-  padding-top: 100px ;
+  padding-top: 100px;
   display: flex;
   justify-content: space-around;
   min-height: 300px;
