@@ -1,11 +1,3 @@
-/* два правила для маркеров границ блоков */
-div * {
-  border: 1px solid red;
-}
-
-div {
-  border: 1px solid rgb(72, 255, 0);
-}
 /* задал константы только для цветов */
 :root {
   --yablu: #2f80ed;
@@ -125,7 +117,7 @@ a {
   bottom: 30px;
 }
 
-.header__subtitle-link {
+.header__subtitle_link {
   color:var(--yablu);
 }
 
