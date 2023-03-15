@@ -8,9 +8,3 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-.page__logo {
-  height: 32px;
-  width: 228px;
-}

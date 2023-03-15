@@ -3,9 +3,17 @@
   padding: 90px 0;
   background-color: var(--yablack);
   overflow: hidden;
+  background-image: url(../../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: top 0 right -250px;
+  background-size: 877px 877px;
 }
 
-.table-section__title {
+.table-section__title,
+.table-section__subtitle,
+.table-section__table_cell_dark,
+.table-section__table_cell-heading,
+.table-section__table_cell-text {
   z-index: 1;
 }
 

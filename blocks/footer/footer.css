@@ -37,8 +37,8 @@
 }
 
 .footer__column-header {
-  margin-block-start: 0;
-  margin-block-end: 0;
+  /* margin-block-start: 0;
+  margin-block-end: 0; */
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;

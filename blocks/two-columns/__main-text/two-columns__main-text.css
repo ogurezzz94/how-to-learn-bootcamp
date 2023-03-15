@@ -1,0 +1,14 @@
+.two-columns__main-text {
+  /* как альтернативный вариант решил оставить такую заготовку-подсказку на случай,
+  если псевдоклас .two-columns__paragraph:last-child будет сложно эксплуатировать
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px; */
+  margin: 0;
+  min-width: 784px;
+  width: 80%;
+  /* убрал стили списков */
+  list-style-type: none;
+  padding-left: 0;
+}

@@ -1,11 +1,14 @@
 
 .table-section__title {
-  margin: auto auto 20px;
+  margin: auto;
+  padding-bottom: 20px;
   text-align: center;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .table-section__subtitle {
   margin: auto;
@@ -14,8 +17,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
-
+/*  */
 .table-section__table {
   margin: 0 auto;
   display: flex;
@@ -36,8 +41,8 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  /*нашел неподходящее правило в инспекте, переписал стандартные правила для h3 */
   margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .table-section__table_cell-text {
