@@ -1,0 +1,12 @@
+.kaufman {
+  position: relative;
+  padding: 90px 0;
+  background-color: var(--yablack);
+  overflow: hidden;
+}
+
+.kaufman__image-kaufman {
+  position: absolute;
+  top: 0;
+  right: -210px;
+}

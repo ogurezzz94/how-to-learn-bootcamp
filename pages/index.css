@@ -1,0 +1,39 @@
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/table-section/table-section.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/description/description.css);
+
+@import url(../blocks/digits/digits.css);
+
+@import url(../blocks/feyman/feyman.css);
+
+@import url(../blocks/kaufman/kaufman.css);
+
+@import url(../blocks/footer/footer.css);
+
+/* для всех ссылок убрал подчеркивание */
+/* a {
+  text-decoration: none;
+} */
+
+.table-section__title_dark,
+.table-section__subtitle_dark {
+  width: 60%;
+  color: white;
+}
+
+.table-section__table_cell_dark {
+  margin-top: 80px;
+  width: 200px;
+}
+
+.table-section__table_cell-heading_dark,
+.table-section__table_cell-text_dark {
+  z-index: 1;
+  color: var(--yagrey);
+}

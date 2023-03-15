@@ -1,0 +1,25 @@
+/* задал константы только для цветов */
+:root {
+  --yablu: #2f80ed;
+  --yagrey: #f2f2f2;
+  --yablack: #1f1f1f;
+}
+
+div * {
+  border: 1px solid red;
+}
+
+div {
+  border: 1px solid lime;
+}
+
+.root__margin-text-reset {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.root__list-style-none {
+  list-style-type: none;
+  padding-left: 0;
+
+}

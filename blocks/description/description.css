@@ -1,0 +1,49 @@
+/* задал флексбокс, направление и отцентровал внутренний элемент*/
+.description {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.description__bold-span {
+  font-weight: 600;
+}
+
+.desctription__two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.description__brief {
+  margin: 0;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--yablu);
+}
+
+.description__main-text {
+  /* как альтернативный вариант решил оставить такую заготовку-подсказку на случай,
+  если псевдоклас будет сложно эксплуатировать
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px; */
+  margin: 0;
+  min-width: 784px;
+  width: 80%;
+}
+
+.description__main-text_paragraph  {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.description__main-text_paragraph:last-child {
+  margin-bottom: 0;
+}
