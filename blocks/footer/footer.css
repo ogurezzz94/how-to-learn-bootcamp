@@ -1,5 +1,7 @@
 
 .footer {
+  display: flex;
+  box-sizing: border-box;
   max-height: 350px;
   padding: 60px 0 40px;
   background-color: var(--yablack);
@@ -13,7 +15,7 @@
 }
 
 .footer__column_copyright {
-  flex-basis: 750px;
+  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

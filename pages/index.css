@@ -23,11 +23,13 @@
 
 .table-section__title_dark,
 .table-section__subtitle_dark {
+  z-index: 1;
   width: 60%;
   color: white;
 }
 
 .table-section__table_cell_dark {
+  z-index: 1;
   margin-top: 80px;
   width: 200px;
 }
@@ -37,3 +39,4 @@
   z-index: 1;
   color: var(--yagrey);
 }
+
