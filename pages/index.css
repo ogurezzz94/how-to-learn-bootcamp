@@ -1,26 +1,37 @@
 @import url(../blocks/root/root.css);
+@import url(../blocks/animation/__rotation/animation__rotation.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__link-decor-none/page__link-decor-none.css);
 @import url(../blocks/page/__list-style-none/page__list-style-none.css);
 @import url(../blocks/page/__logo/page__logo.css);
 @import url(../blocks/page/__text-margin-reset/page__text-margin-reset.css);
+/* надо избавиться */
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__place/_header/logo__place_header.css);
 @import url(../blocks/logo/__place/_footer/logo__place_footer.css);
 
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__title/_themes/section__title_theme_dark.css);
+@import url(../blocks/section/__subtitle/section__subtitle.css);
+@import url(../blocks/section/__subtitle/_themes/section__subtitle_theme_dark.css);
+
 @import url(../blocks/table-section/table-section.css);
+ /* надо избавиться */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__cell/_themes/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__heading/_themes/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__text/_themes/table__text_theme_dark.css);
 
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 
 @import url(../blocks/header/header.css);
@@ -30,32 +41,15 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 
-
 @import url(../blocks/description/description.css);
 
 @import url(../blocks/digits/digits.css);
-@import url(../blocks/digits/digits-title.css);
-@import url(../blocks/digits/digits-subtitle.css);
 
 @import url(../blocks/feyman/feyman.css);
+@import url(../blocks/feyman/__title/feyman__title.css);
+@import url(../blocks/feyman/__subtitle/feyman__subtitle.css);
+@import url(../blocks/feyman/__link/feyman__link.css);
 
 @import url(../blocks/kaufman/kaufman.css);
 
 @import url(../blocks/footer/footer.css);
-
-
-.table-section__title_dark,
-.table-section__subtitle_dark {
-  color: white;
-}
-
-.table-section__table_cell_dark {
-  margin-top: 80px;
-  width: 200px;
-}
-
-.table-section__table_cell-heading_dark,
-.table-section__table_cell-text_dark {
-  color: var(--yagrey);
-}
-
