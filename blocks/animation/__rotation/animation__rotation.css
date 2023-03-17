@@ -8,5 +8,5 @@
 }
 
 .animation__rotation {
-  animation: rotation 20s linear infinite reverse;
+  animation: rotation 20s linear infinite;
 }
