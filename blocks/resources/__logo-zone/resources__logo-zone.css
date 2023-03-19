@@ -1,4 +1,13 @@
 .resources__logo-zone {
+  display: flex;
+  justify-content: center;
   width: 1100px;
   margin: 80px auto 0;
+  /* этот гэп для анимаций ховер */
+  gap: 6px;
+}
+
+/* этот селектор сжимает элементы когда выбран их сосед */
+.resources__logo-zone:hover .resources__logo:not(:hover) {
+  width: 250px;
 }
