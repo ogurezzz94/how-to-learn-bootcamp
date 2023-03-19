@@ -4,10 +4,11 @@
   --yagrey: #f2f2f2;
   --yablack: #1f1f1f;
 }
-div * {
+
+/* div * {
   border: 1px solid red;
 }
 
 div {
   border: 1px solid lime;
-}
+} */
